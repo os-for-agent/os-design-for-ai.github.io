@@ -1,7 +1,5 @@
 # AgenticOS 2026: Operating Systems Design for AI Agents
 
-(Co-located with ASPLOS 2026)
-
 AI agents are rapidly evolving from experimental prototypes to always-on services that autonomously plan, invoke external tools, collaborate, and continuously interact with their environment. This paradigm shift fundamentally challenges existing operating system (OS) abstractions—such as processes, threads, files, sockets, and resource controllers—which were never designed to manage dynamic, semantically complex, and adaptive agent-based workloads. To effectively support AI agents at scale, operating systems themselves must become "agentic," proactively adapting their abstractions and resource management policies to the semantic needs and dynamic behaviors of agents.
 
 The **AgenticOS** workshop seeks original position papers and experience reports exploring OS-level mechanisms specifically designed for AI agent workloads. We aim to identify, discuss, and define new OS primitives and kernel mechanisms that enable secure isolation, dynamic resource scheduling, efficient state management, and real-time observability tailored explicitly to the unique characteristics of agent-based systems.
