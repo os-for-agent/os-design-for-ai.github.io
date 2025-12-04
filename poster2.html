@@ -39,7 +39,7 @@ const App = () => {
               AGENTIC<br/>OS
             </h1>
             <div className="inline-block bg-white text-blue-600 px-3 py-0.5 text-[10px] font-bold uppercase tracking-widest print:text-black border border-transparent print:border-black">
-              @ ASPLOS 2026
+              Workshop@ASPLOS 2026
             </div>
           </div>
 
@@ -87,24 +87,27 @@ const App = () => {
                    <div className="text-xs font-black text-slate-900 mt-0.5">MAR 2026 <span className="text-slate-400 font-normal text-[9px] ml-0.5">Workshop</span></div>
                 </div>
                 <div className="text-right">
-                   <h3 className="text-[9px] font-bold uppercase text-slate-400 mb-0.5">Format</h3>
+                   <h3 className="text-[9px] font-bold uppercase text-slate-400 mb-0.5">CFP Format</h3>
                    <div className="text-xs font-bold text-slate-900">Talks <span className="text-[9px] font-medium text-slate-500">(1-2p)</span></div>
                    <div className="text-xs font-bold text-slate-900 mt-0.5">Short Papers <span className="text-[9px] font-medium text-slate-500">(6p)</span></div>
                 </div>
              </div>
 
              {/* Footer Link & QR */}
-             <div className="flex items-center justify-between w-full">
-                <div className="flex flex-col justify-center">
+             <div className="flex items-end justify-between w-full">
+                <div className="flex flex-col justify-center items-start">
                    <div className="text-base font-black tracking-tight text-blue-600 print:text-black">os-for-agent.github.io</div>
-                   <div className="text-[9px] font-bold text-slate-400 mt-0.5 uppercase tracking-wide">Join the revolution</div>
+                   <div className="text-[8px] font-bold text-slate-600 mt-1 leading-snug">
+                     欢迎投稿：早期想法、原型、踩坑经验<br/>
+                     甚至负面结果，<span className="text-blue-600 print:text-black">统统欢迎！</span>
+                   </div>
                 </div>
                 {/* QR Code */}
                 <div className="bg-white p-1 rounded border border-slate-100 print:border-slate-300 shrink-0 ml-4">
                   <img 
                     src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://os-for-agent.github.io/&color=000000" 
                     alt="QR" 
-                    className="w-10 h-10 block mix-blend-multiply"
+                    className="w-12 h-12 block mix-blend-multiply"
                   />
                 </div>
              </div>
